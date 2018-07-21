@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+{% block body %}
+    <h2>Managing {{ guild.name }}</h2>
+    <form action="{{ url_for('update_guild', gid=guild.id) }}" method="post">
+        <p><label for="prefix">Prefix</label><input type="text" name="prefix" id="prefix"
+                                              value="{{ guild.prefix }}"></p>
+        <p><input type="submit" value="Update!"></p>
+    </form>
+{% endblock %}

@@ -1,0 +1,9 @@
+aiofiles
+aioconsole
+https://github.com/Rapptz/discord.py/archive/rewrite.zip
+pytest
+peewee
+PyMySQL
+flask
+requests_oauthlib
+requests

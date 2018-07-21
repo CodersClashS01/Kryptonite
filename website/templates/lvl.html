@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="author" content="Yannick Seeger / ForYaSee || Falk Michaelis">
+		<meta name="theme-color" content="#2980b9">
+        <link rel="stylesheet" href="{{url_for('static', filename='style_lv.css')}}">
+    </head>
+    <body>
+        <div id="header">
+            <p class="title">{{guild}}</p>
+            <p class="subtitle">Leaderboard</p>
+            <input type="text" name="inSearch" id="inSearch" class="invisible">
+        </div>
+        <!-- <div id="main">
+            <div class="sidebar hide-md">
+                <div class="description">
+                    <p>Für jede gesendete Nachricht bekommst du Erfahrungspunkte. Die Anzahl der Punkte hängt von derr Länge der Nachricht ab.<br>0-10 Buchstaben: 5-10xp <br>11-20 Buchstaben: 5-20xp<br>21-50 Buchstaben: 20-50xp<br>51-200 Buchstaben: 30-70xp<br>201-1000 Buchstaben: 40-100xp<br>1001-2000 Buchstaben: 100-200xp</p>
+                </div>
+                <div class="description">
+					<h2>Rewards</h2>
+                    <p>Level 5: Servermember<br>Level 15: Premium<br>Level 50: VIP</p>
+                </div> -->
+            </div>
+            <div class="levelbar">
+                <table id="levelTable">
+                    <tbody>
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <footer>
+            &copy; 2018 <a href="https://thebotdev.de">TheBotDev</a> | Created by ForYaSee#9353 and BaseChip#2390</a>
+        </footer>
+
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+        <script src="{{url_for('static', filename='search.js')}}"></script>
+    </body>
+</html>

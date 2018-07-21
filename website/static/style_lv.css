@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css?family=Arimo|Muli|Poppins|Raleway');
+
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: #2980b9;
+}
+#header p {
+    color: #fff;
+    font-family: "Poppins";
+    text-align: center;
+}
+
+#header .title {
+    font-size: 2.3rem;
+}
+
+#header .subtitle {
+    font-size: 1.8rem;
+}
+
+#inSearch {
+    font-family: arial;
+    font-size: 1rem;
+    margin: 20px;
+    width: 30%;
+    height: 20px;
+    border-radius: 3px;
+    padding: 7px 10px;
+    border: solid 2px white;;
+}
+
+#main {
+    margin: 25px 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+#main .sidebar {
+    align-self: baseline;
+    font-family: "Muli";
+    width: 20%;
+    margin-left: 10px;
+}
+
+#main .sidebar .description {
+    border: solid 1px gray;
+    border-radius: 3px;
+    padding: 0 10px;
+    margin-bottom: 1rem;
+}
+
+#main .levelbar {
+    width: 75%;
+}
+
+#levelTable {
+    margin-left: 20px;
+}
+
+.image .name {
+    padding-left: 20px;
+}
+
+tr {
+    font-family: "Muli";
+    color: #000;
+    font-size: 1.3rem;
+    border: solid 1px gray;
+    border-radius: 3px;
+    margin-bottom: 15px;
+}
+
+tr > td {
+    padding: 1rem 0;
+}
+
+tr:hover {
+    cursor: pointer;
+    -ms-transform: translateY(-2px);
+    -webkit-transform: translateY(-2px);
+    transform: translateY(-2px);
+    box-shadow: 0 4px rgba(0, 0, 0, 0.1);
+}
+
+#levelTable {
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+}
+
+#levelTable .icon {
+    width: 50px;
+    height: 50px;
+    margin-top: 35px;
+    border-radius: 100%;
+    margin: 0 auto;
+}
+
+footer {
+    font-family: "Raleway";
+    text-align: center;
+    color: black;
+    margin-bottom: 5px;
+}
+
+footer a, footer a:active {
+    color: black;
+    text-decoration: underline;
+}
+
+footer a:hover {
+    color: gray;
+}
+
+@media (max-width: 1000px) {
+    .hide-md {
+        display: none;
+    }
+
+    .levelbar {
+        margin: 0 10px;
+        width: 100%!important;
+    }
+
+    #levelTable {
+        margin: 0;
+    }
+
+    #header .title {
+        font-size: 1.7rem;
+    }
+    #header .subtitle {
+        font-size: 1.3rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .hide-sm {
+        display: none;
+    }
+
+    .rank, .name {
+        padding-left: 5px;
+    }
+
+    .level {
+        padding-right: 5px;
+    }
+}
+
+.invisible {
+    display: none!important
+}
