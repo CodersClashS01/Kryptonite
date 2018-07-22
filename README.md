@@ -2,7 +2,7 @@
 A bot created for the [codeclash](https://github.com/CodersClashS01/) event.
 
 ## Command liste
-|**Command**                             |**Description**                                                                      |**Requieremnets**|
+|**Command**                             |**Description**                                                                      |**Requierements**|
 |----------------------------------------|-------------------------------------------------------------------------------------|------------|
 |[ping](https://github.com/BaseChip/code_clash/blob/master/modules/ping.py)|Shows the bots ping.|/|
 |[report](https://github.com/BaseChip/code_clash/blob/master/modules/report.py)|Reports a user|need to setup a report channel|
